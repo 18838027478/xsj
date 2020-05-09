@@ -1,0 +1,58 @@
+.warper, .noBook{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+.noBook .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -2.5rem;
+    display: inline-block;
+}
+.noBook .center img{
+    width: 5rem;
+    height: 50px;
+}
+.noBook .center p{
+    margin-top: 10px;
+    color: #cecece;
+}
+.booktit{
+    background-color: #25ab27;
+    line-height: 42px;
+    font-size: 16px;
+    text-align: center;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 7px;
+    font-size: 24px;
+}
+.books .booklist{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.books .booklist .item{
+    width: 10.9rem;
+    height: 190px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.books .booklist .item img{
+    width: 100%;
+    height: 140px;
+    margin-top: 6px;
+}
+.books .booklist .item .bkname{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}

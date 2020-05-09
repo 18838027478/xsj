@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maixmum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/my.css">
+    <script src="../common/common.js"></script>
+    <script src="../common/publicCSS.js"></script>
+</head>
+<body>
+    <div class="warper">
+        <div class="head">
+            <div class="center">
+                <div class="header1 ">
+                    <img src="../images/loginlogin.png" alt="">
+                    <div class="btn login" >点击登录</div>
+                </div>
+                <div class="header2 none">
+                    <img src=""
+                        alt="">
+                    <div class="username"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <ul>
+                <li>
+                    <div class="lf">
+                        <img src="../images/luckyCoin.png" alt="">
+                        <span>积分</span>
+                    </div>
+                    <div class="rf balance"></div>
+                </li>
+                <li onclick="go('myBook.html')">
+                    <div class="lf">
+                        <img src="../images/bought.png" alt="">
+                        <span>已购</span>
+                    </div>
+                    <div class="rf">></div>
+                </li>
+            </ul>
+        </div>
+        <div class="unlogin">
+            <div class="btn " onclick="unlogin()">退出登录</div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="bar_list ">
+            <div class="item">
+                <a href="../html/book.html">
+                    <img src="../images/book.png" alt="">
+                    <span>书架</span>
+                </a>
+            </div>
+        </div>
+        <div class="bar_list">
+            <div class="item">
+                <a class="green" href="../html/my.html">
+                    <img src="../images/mySelected.png" alt="">
+                    <span>书架</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="warn-warper">
+        <div class="warn">
+            <i class="iconfont icon-jinggao"></i>
+            <div class="warntit">请登陆账号~</div>
+        </div>
+    </div>
+</body>
+<script src="../../client/config/jquery.js"></script>
+<script src="../common/common.js"></script>
+<script src="../js/my.js"></script>
+</html>

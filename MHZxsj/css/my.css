@@ -1,0 +1,76 @@
+.warper{
+
+}
+.head{
+    height: 138px;
+    background-color: #fff;
+    text-align: center;
+}
+.head .center{
+    padding-top: 25px;
+}
+.head .header1{
+    display: inline-block;
+    margin: 0 auto;
+}
+.head img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.head .btn{
+    width: 75px;
+    text-align: center;
+    line-height: 35px;
+    color: #adadad;
+    border-radius: 8px;
+    border: 1px solid #adadad;
+    background-color: #f8f8f8;
+}
+.head .username{
+    color: #a9a9a9;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.head .header2{
+    display: inline-block;
+}
+.main{
+    margin-top: 15px;
+}
+.main ul{
+    overflow: hidden;
+}
+.main li{
+    width: 100%;
+    line-height: 35px;
+    list-style: none;
+    float: left;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+.main li:last-child{
+    border-bottom: 0px;
+}
+.main li .lf{
+    padding-left: 10px;
+}
+.main li .rf{
+    padding-right: 10px;
+}
+.main li img{
+    width: 1.5rem;
+    height: 15px;
+    margin-right: 6px;
+    vertical-align: sub;
+}
+.unlogin .btn{
+    width: 75px;
+    text-align: center;
+    line-height: 35px;
+    margin: 20px auto;
+    color: #adadad;
+    border-radius: 8px;
+    border: 1px solid #adadad;
+    background-color: #f8f8f8;
+}

@@ -1,0 +1,177 @@
+.warper{
+    height: 667px;
+}
+body{
+    overflow: hidden;
+}
+.books{
+    overflow: hidden;
+    height: 155px;
+    background-color: #fff;
+    padding: 24px 15px 0;
+}
+.booktit{
+    background-color: #25ab27;
+    line-height: 42px;
+    font-size: 16px;
+    text-align: center;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 7px;
+    font-size: 24px;
+}
+.books .lf{
+    
+}
+.books .lf .img{
+    display: inline-block;
+    width: 7.85rem;
+    height: 118px;
+    margin-right: 2rem;
+}
+.books .lf .img img{
+    width: 100%;
+    height: 100%;
+}
+.books .lf .bookInfo{
+    display: inline-block;
+    max-width: 12.8rem;
+    color: #8b8a8a;
+    vertical-align: top;
+}
+.books .lf .bookInfo div{
+    margin-top: 8px;
+    font-size: 14px;
+}
+.books .lf .bookInfo .bkname{
+    font-size: 16px;
+    color: #000;
+}
+.books .lf .bookInfo .padd{
+    font-size: 12px;
+}
+.books .rf{
+    
+}
+.books .rf .btn{
+    margin-top: 35px;
+    text-align: center;
+    width: 4.5rem;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #25ab27;
+}
+.books .rf .btn:last-child{
+    background-color: #f8f8f8;
+    color: #000;
+    border: 1px solid #e1e1e1;
+}
+/* 评论区 */
+.common{
+    width: 100%;
+    height: 425px;
+}
+.common .common-tit{
+    font-size: 16px;
+    text-align: center;
+    color: #cfcfcf;
+    padding: 15px 0;
+}
+.common .commonFlag{
+    font-size: 18px;
+    text-align: center;
+    color: #cfcfcf;
+    padding: 15px 0;
+}
+.common .commonList{
+    height: 373px;
+    overflow: scroll;
+}
+.common .commonList .item{
+    padding: 10px;
+}
+.common .commonList img{
+    width: 5.2rem;
+    height: 52px;
+    margin-right: 10px;
+}
+.common .commonList .listInfo{
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    vertical-align: top;
+}
+.common .commonList .listInfo div{
+    padding:4px 0;
+}
+.common .commonList .listInfo .username{
+    font-size: 14px;
+    color: #8f8f8f;
+}
+.common .commonList .listInfo .time{
+    font-size: 12px;
+    color: #d2d2d2;
+}
+.submit{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.submit .btn{
+    margin: 12px auto 0;
+    width: 22.6rem;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #25ab27;
+}
+.duihuan-warper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    display: none;
+}
+.duihuan-warper .duihuan{
+    text-align: center;
+    width: 24.6rem;
+    height: 86px;
+    font-size: 12px;color: #fff;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 5px;
+    position: fixed;
+    left: 50%;
+    margin-left: -127px;
+    top: 50%;
+    margin-top: -25px;
+}
+.duihuan-warper .duihuan p{
+    padding:8px 8px 0;
+    font-size: 16px;
+    text-align: center;
+}
+.duihuan-warper .duihuan .btn-parent{
+    display: flex;
+    line-height: 36px;
+}
+.duihuan-warper .duihuan .btn-parent .btn{
+    flex: 1;
+    font-size: 14px;
+    color: pink;
+    display: inline-block;
+    border-radius: 0 0 0 5px;
+    background-color: #fff;
+}
+.duihuan-warper .duihuan .btn-parent .btn:last-child{
+    border-radius: 0 0 5px 0;
+}

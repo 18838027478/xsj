@@ -1,0 +1,1 @@
+document.write('<script src="../plugin/swiper/swiper.min.js"></script>')

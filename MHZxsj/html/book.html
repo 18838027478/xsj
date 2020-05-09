@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/book.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <script src="../common/publicCSS.js"></script>
+    <script src="../common/common.js"></script>
+    <script src="../common/pluginCSS.js"></script>
+    <script src="../common/plugin.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 轮播图 -->
+    <div class="warper">
+        <div class="swiper">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="https://img3.doubanio.com/lpic/s27269296.jpg" alt="">
+                            <div class="bkname">深入浅出Node.js</div>
+                            <div class="author">朴灵</div>
+                            <div class="pass">人民邮电出版社</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="bar_list ">
+            <div class="item">
+                <a class="green" href="../html/book.html">
+                    <img class="select" src="../images/bookSelected.png" alt="">
+                    <span>书架</span>
+                </a>
+            </div>
+        </div>
+        <div class="bar_list">
+            <div class="item">
+                <a href="../html/my.html">
+                    <img class="select" src="../images/my.png" alt="">
+                    <span>书架</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="warn-warper">
+        <div class="warn">
+            <i class="iconfont icon-jinggao"></i>
+            <div class="warntit">请登陆账号~</div>
+        </div>
+    </div>
+</body>
+<!-- <script src="../../client/config/jquery.js"></script> -->
+<script src="../plugin/jquery/jquery.js"></script>
+<script src="../../client/config/config_1.js"></script>
+<script src="../js/book.js"></script>
+<script>
+    $(".warnBox").load("warn.html")
+</script>
+
+</html>

@@ -1,0 +1,44 @@
+.warper{
+
+}
+.writeCom{
+
+}
+.writeCom .comtit{
+    padding: 15px 10px;
+    font-size: 24px;
+}
+.writeCom .comtit .bkname{
+    font-size: 16px;
+    margin-left: 5px;
+}
+.writeCom .comtit .comtit{
+
+}
+.writeCom .textarea textarea{
+    font-size: 16px;
+    color: #cccc;
+    width: 94%;
+    height: 128px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.submit{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.submit .btn{
+    margin: 12px auto 0;
+    width: 22.6rem;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #25ab27;
+}

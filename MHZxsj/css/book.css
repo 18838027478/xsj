@@ -1,0 +1,48 @@
+/* 轮播图样式 */
+.warper{
+    /* padding-top:50px ;
+    padding-left: 38px; */
+    overflow: visible;
+}
+.swiper-wrapper{
+    margin: 34px 0 0 24px!important;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    width: 258px!important;
+    height: 469px!important;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.swiper-slide:nth-child(1){
+    margin-left: 268px;
+}
+.swiper-slide .item{
+    margin: 15px auto 0;
+}
+.swiper-slide img{
+    display: block;
+    margin:0 auto;
+    width: 228px;
+    height: 358px;
+}
+.swiper-slide div{
+    display: block;
+    margin-top: 8px;
+}
+.author{
+    color: #8d8d8d;
+    font-size: 16px;
+}
+.pass{
+    color: #cfcfcf;
+    font-size: 14px;
+}

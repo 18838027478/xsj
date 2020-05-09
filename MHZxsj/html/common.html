@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/comment.css">
+    <script src="../common/common.js"></script>
+    <script src="../plugin/jquery/jquery.js"></script>
+</head>
+<body>
+    <div class="warper">
+        <div class="writeCom">
+            <div class="comtit" onclick="back()">
+                <span><</span>
+                <span class="bkname">红宝书</span>
+            </div>
+                <div class="textarea">
+                    <textarea class=""id="txt" value="" placeholder="关于这本书的看法" ></textarea>
+                </div>
+                
+                <div class="submit">
+                    <div class="btn">提交评论</div>
+                </div>
+        </div>
+    </div>
+</body>
+<script>
+    let content=''
+// 获取文本框内容。点击提交，将文本框内容动态渲染到评论列表中
+$(".textarea textarea").on("input propertychange",function(){
+    content=$(".textarea textarea").val()
+})
+$(".submit").click(function(){
+    localStorage.setItem("content",content)
+    back()
+})
+</script>
+</html>
